@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'DS-Digital', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #32CD32;
+    
+}
+
+h1{
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    box-shadow: 0 0 30px;
+}
+
+#stopwatch{
+    color: #0ff;
+    font-size: 100px;
+    box-shadow: 0 0 30px;
+    height: 200px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 250px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px;
+    padding: 20px 30px;
+    color: #00A6ED;
+}
+
+#start-stop{
+    background-color: black;
+    border: none;
+    color: black;
+    font-size: 50px;
+    padding: 0;
+}
+
+#reset{
+    background-color: black;
+    color: black;
+    border: none;
+    font-size: 50px;
+    padding: 0;
+    
+    /* line-height: 10px; */
+}
+
+#start-stop:hover{
+    box-shadow: 0 0 10px #00A6ED;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+
+#reset:hover{
+    box-shadow: 0 0 10px #00A6ED;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+
+
