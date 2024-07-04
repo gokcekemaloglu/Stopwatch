@@ -28,6 +28,7 @@ h1{
     margin-bottom: 50px;
     padding: 20px 30px;
     box-shadow: 0 0 30px;
+    border-radius: 10px;
 }
 
 #stopwatch{
@@ -39,6 +40,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+
 }
 
 .buttons{
@@ -50,6 +53,8 @@ h1{
     box-shadow: 0 0 30px;
     padding: 20px 30px;
     color: #00A6ED;
+    border-radius: 10px;
+
 }
 
 #start-stop{
@@ -66,8 +71,6 @@ h1{
     border: none;
     font-size: 50px;
     padding: 0;
-    
-    /* line-height: 10px; */
 }
 
 #start-stop:hover{
